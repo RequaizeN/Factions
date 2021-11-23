@@ -79,17 +79,17 @@ permissions:
   factions.title: {description: set player title, default: false}
   factions.title.color: {description: set player title with color, default: false}
   factions.territorytitles: {description: toggle territory titles, default: false}
-  factions.unclaim: {description: unclaim faction territory, default: false}
-  factions.unclaim.one: {description: unclaim a single chunk, default: false}
-  factions.unclaim.auto: {description: unclaim as you walk around, default: false}
-  factions.unclaim.fill: {description: unclaim by filling, default: false}
-  factions.unclaim.square: {description: unclaim by square and radius, default: false}
-  factions.unclaim.circle: {description: unclaim by circle and radius, default: false}
-  factions.unclaim.all: {description: unclaim all faction land, default: false}
-  factions.unsethome: {description: unset faction home, default: false}
-  factions.unstuck: {description: teleport to nearest wilderness, default: false}
-  factions.config: {description: edit the factions config, default: false}
-  factions.clean: {description: clean the factions database, default: false}
+  factions.unclaim: {description: klan bölgesindeki claimi kaldırır, default: false}
+  factions.unclaim.one: {description: bir chunktaki klan claimini kaldırır, default: false}
+  factions.unclaim.auto: {description: yürüyerek klan claimini kaldırır, default: false}
+  factions.unclaim.fill: {description: doldurarak klan claimini kaldırır, default: false}
+  factions.unclaim.square: {description: kare/yarıpaçtaki klan claimini kaldırır, default: false}
+  factions.unclaim.circle: {description: daire/yarıçaptaki klan claimini kaldırır, default: false}
+  factions.unclaim.all: {description: tüm klan claimini kaldırır, default: false}
+  factions.unsethome: {description: ayarlanmış klan evini kaldırır, default: false}
+  factions.unstuck: {description: en yakın sahipsiz araziye ışınlar, default: false}
+  factions.config: {description: klan konfigürasyonunu düzenler, default: false}
+  factions.clean: {description: klan veritabanını temizler, default: false}
   factions.version: {description: eklenti versiyonunu görüntüler, default: false}
 # -------------------------------------------- #
 # STAR NOTATION
