@@ -25,16 +25,16 @@ permissions:
   factions.claim.all: {description: tüm araziyi claimlemenizi sağlar, default: false}
   factions.create: {description: yeni claim oluşturmanızı sağlar, default: false}
   factions.description: {description: klan açıklamasını düzenlemenizi sağlar, default: false}
-  factions.disband: {description: disband faction, default: false}
-  factions.expansions: {description: list expansions, default: false}
-  factions.faction: {description: show faction information, default: false}
-  factions.flag: {description: manage faction flags, default: false}
-  factions.flag.list: {description: list flags, default: false}
-  factions.flag.set: {description: set flags, default: false}
-  factions.flag.show: {description: show flags, default: false}
-  factions.home: {description: teleport to faction home, default: false}
-  factions.invite: {description: manage invites, default: false}
-  factions.invite.list: {description: list invited players, default: false}
+  factions.disband: {description: klanı kapatmanızı sağlar, default: false}
+  factions.expansions: {description: addonları listeler, default: false}
+  factions.faction: {description: klan bilgilerini görüntüler, default: false}
+  factions.flag: {description: klan korumalarını düzenler, default: false}
+  factions.flag.list: {description: korumaları listeler, default: false}
+  factions.flag.set: {description: korumaları ayarlar, default: false}
+  factions.flag.show: {description: korumaları görüntüler, default: false}
+  factions.home: {description: klan evine ışınlar, default: false}
+  factions.invite: {description: davetleri düzenler, default: false}
+  factions.invite.list: {description: davet edilen oyuncuları listeler, default: false}
   factions.invite.list.other: {description: list invited players of another factions, default: false}
   factions.invite.add: {description: invite player, default: false}
   factions.invite.remove: {description: revoke an invite, default: false}
@@ -55,10 +55,10 @@ permissions:
   factions.motd: {description: faction motd, default: false}
   factions.open: {description: set if invitation is required to join, default: false}
   factions.perm: {description: change faction permissions, default: false}
-  factions.perm.list: {description: list perms, default: false}
-  factions.perm.set: {description: set perms, default: false}
-  factions.perm.show: {description: show perms, default: false}
-  factions.player: {description: show player information}
+  factions.perm.list: {description: yetkileri listeler, default: false}
+  factions.perm.set: {description: yetkileri ayarlar, default: false}
+  factions.perm.show: {description: yetkileri görüntüler, default: false}
+  factions.player: {description: oyuncu bilgilerini görüntüler}
   factions.powerboost: {description: manage powerboost, default: false}
   factions.powerboost.faction: {description: show faction powerboost, default: false}
   factions.powerboost.player: {description: show player powerboost, default: false}
