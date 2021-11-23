@@ -14,17 +14,17 @@ permissions:
   factions.access.faction: {description: klan erişimini düzenler, with the proper fperm, default: false}
   factions.access.player: {description: oyuncu erişimini düzenler, with the proper fperm, default: false}
   factions.access.view: {description: erişimi görünler, default: false}
-  factions.override: {description: enable override mode, default: false}
-  factions.basecommand: {description: use factions base command, default: false}
-  factions.claim: {description: claim faction territory, default: false}
-  factions.claim.one: {description: claim a single chunk, default: false}
-  factions.claim.auto: {description: claim as you walk around, default: false}
-  factions.claim.fill: {description: claim by filling, default: false}
-  factions.claim.square: {description: claim by square and radius, default: false}
-  factions.claim.circle: {description: claim by circle and radius, default: false}
-  factions.claim.all: {description: claim all faction land, default: false}
-  factions.create: {description: create new faction, default: false}
-  factions.description: {description: change faction description, default: false}
+  factions.override: {description: geçersiz kılma modunu etkinleştirir, default: false}
+  factions.basecommand: {description: genel klan komutlarını görüntüler, default: false}
+  factions.claim: {description: klan bölgesi claimlemenizi sağlar, default: false}
+  factions.claim.one: {description: bir chunk arazi claimlemenizi sağlar, default: false}
+  factions.claim.auto: {description: yürüyerek arazi claimlemenizi sağlar, default: false}
+  factions.claim.fill: {description: doldurarak arazi claimlemenizi sağlar, default: false}
+  factions.claim.square: {description: kare/yarıçapta arazi claimlemenizi sağlar, default: false}
+  factions.claim.circle: {description: daire/yarıçapta arazi claimlemenizi sağlar, default: false}
+  factions.claim.all: {description: tüm araziyi claimlemenizi sağlar, default: false}
+  factions.create: {description: yeni claim oluşturmanızı sağlar, default: false}
+  factions.description: {description: klan açıklamasını düzenlemenizi sağlar, default: false}
   factions.disband: {description: disband faction, default: false}
   factions.expansions: {description: list expansions, default: false}
   factions.faction: {description: show faction information, default: false}
@@ -83,7 +83,7 @@ permissions:
   factions.unclaim.one: {description: bir chunktaki klan claimini kaldırır, default: false}
   factions.unclaim.auto: {description: yürüyerek klan claimini kaldırır, default: false}
   factions.unclaim.fill: {description: doldurarak klan claimini kaldırır, default: false}
-  factions.unclaim.square: {description: kare/yarıpaçtaki klan claimini kaldırır, default: false}
+  factions.unclaim.square: {description: kare/yarıçaptaki klan claimini kaldırır, default: false}
   factions.unclaim.circle: {description: daire/yarıçaptaki klan claimini kaldırır, default: false}
   factions.unclaim.all: {description: tüm klan claimini kaldırır, default: false}
   factions.unsethome: {description: ayarlanmış klan evini kaldırır, default: false}
