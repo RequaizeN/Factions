@@ -90,7 +90,7 @@ permissions:
   factions.unstuck: {description: teleport to nearest wilderness, default: false}
   factions.config: {description: edit the factions config, default: false}
   factions.clean: {description: clean the factions database, default: false}
-  factions.version: {description: see plugin version, default: false}
+  factions.version: {description: eklenti versiyonunu görüntüler, default: false}
 # -------------------------------------------- #
 # STAR NOTATION
 # -------------------------------------------- #
