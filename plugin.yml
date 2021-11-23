@@ -10,10 +10,10 @@ permissions:
 # -------------------------------------------- #
 # THE REAL NODES
 # -------------------------------------------- #
-  factions.access: {description: manage access, with the proper fperm, default: false}
-  factions.access.faction: {description: grant faction access, with the proper fperm, default: false}
-  factions.access.player: {description: grant player access, with the proper fperm, default: false}
-  factions.access.view: {description: view access, default: false}
+  factions.access: {description: erişimi düzenler, with the proper fperm, default: false}
+  factions.access.faction: {description: klan erişimini düzenler, with the proper fperm, default: false}
+  factions.access.player: {description: oyuncu erişimini düzenler, with the proper fperm, default: false}
+  factions.access.view: {description: erişimi görünler, default: false}
   factions.override: {description: enable override mode, default: false}
   factions.basecommand: {description: use factions base command, default: false}
   factions.claim: {description: claim faction territory, default: false}
@@ -70,15 +70,15 @@ permissions:
   factions.relation.list: {description: list all factions with certain relation, default: false}
   factions.relation.set: {description: set relation wish to another faction, default: false}
   factions.relation.wishes: {description: list the relation wishes, default: false}
-  factions.seechunk: {description: see the chunk you stand in, default: false}
-  factions.seechunkold: {description: see the chunk you stand in, default: false}
-  factions.sethome: {description: set the faction home, default: false}
-  factions.setpower: {description: set power, default: false}
-  factions.status: {description: show status, default: false}
-  factions.name: {description: set faction name, default: false}
-  factions.title: {description: set player title, default: false}
-  factions.title.color: {description: set player title with color, default: false}
-  factions.territorytitles: {description: toggle territory titles, default: false}
+  factions.seechunk: {description: üzerinde bulunduğun chunkı görüntüler, default: false}
+  factions.seechunkold: {description: içerisinde bulunduğun chunkı görüntüler, default: false}
+  factions.sethome: {description: klan evini ayarlar, default: false}
+  factions.setpower: {description: gücü ayarlar, default: false}
+  factions.status: {description: durumu görüntüler, default: false}
+  factions.name: {description: klan ismi ayarlar, default: false}
+  factions.title: {description: oyuncu başlığı ayarlar, default: false}
+  factions.title.color: {description: oyuncu başlığını renk ile ayarlar, default: false}
+  factions.territorytitles: {description: bölge başlıklarını düzenler, default: false}
   factions.unclaim: {description: klan bölgesindeki claimi kaldırır, default: false}
   factions.unclaim.one: {description: bir chunktaki klan claimini kaldırır, default: false}
   factions.unclaim.auto: {description: yürüyerek klan claimini kaldırır, default: false}
