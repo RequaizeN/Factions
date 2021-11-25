@@ -35,14 +35,14 @@ permissions:
   factions.home: {description: klan evine ışınlar, default: false}
   factions.invite: {description: davetleri düzenler, default: false}
   factions.invite.list: {description: davet edilen oyuncuları listeler, default: false}
-  factions.invite.list.other: {description: list invited players of another factions, default: false}
-  factions.invite.add: {description: invite player, default: false}
-  factions.invite.remove: {description: revoke an invite, default: false}
-  factions.join: {description: join faction, default: false}
-  factions.join.others: {description: have another player join faction, default: false}
-  factions.kick: {description: kick player from faction, default: false}
-  factions.leave: {description: leave your faction, default: false}
-  factions.list: {description: list all factions, default: false}
+  factions.invite.list.other: {description: başka bir klanın davetli oyuncularını listeler, default: false}
+  factions.invite.add: {description: oyuncu davet eder, default: false}
+  factions.invite.remove: {description: gönderilen daveti iptal eder, default: false}
+  factions.join: {description: klana katılmanı sağlar, default: false}
+  factions.join.others: {description: başka bir oyuncunun klana katılmasını sağlar, default: false}
+  factions.kick: {description: klandan oyuncu atmanızı sağlar, default: false}
+  factions.leave: {description: klandan çıkmanızı sağlar, default: false}
+  factions.list: {description: tüm klanları listeler, default: false}
   factions.map: {description: show territory map, default: false}
   factions.money: {description: manage faction money, default: false}
   factions.money.balance: {description: show faction money, default: false}
