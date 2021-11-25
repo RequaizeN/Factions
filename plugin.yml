@@ -43,33 +43,33 @@ permissions:
   factions.kick: {description: klandan oyuncu atmanızı sağlar, default: false}
   factions.leave: {description: klandan çıkmanızı sağlar, default: false}
   factions.list: {description: tüm klanları listeler, default: false}
-  factions.map: {description: show territory map, default: false}
-  factions.money: {description: manage faction money, default: false}
-  factions.money.balance: {description: show faction money, default: false}
-  factions.money.balance.any: {description: show another factions money, default: false}
-  factions.money.deposit: {description: deposit to faction, default: false}
-  factions.money.f2f: {description: transfer f --> f, default: false}
-  factions.money.f2p: {description: transfer f --> p, default: false}
-  factions.money.p2f: {description: transfer p --> f, default: false}
-  factions.money.withdraw: {description: withdraw from faction, default: false}
-  factions.motd: {description: faction motd, default: false}
-  factions.open: {description: set if invitation is required to join, default: false}
-  factions.perm: {description: change faction permissions, default: false}
+  factions.map: {description: bölge haritasını görüntüler, default: false}
+  factions.money: {description: klan parasını düzenler, default: false}
+  factions.money.balance: {description: klan parasını görüntüler, default: false}
+  factions.money.balance.any: {description: diğer klanların parasını görüntüler, default: false}
+  factions.money.deposit: {description: klana para yatırır, default: false}
+  factions.money.f2f: {description: transfer k --> k, default: false}
+  factions.money.f2p: {description: transfer k --> o, default: false}
+  factions.money.p2f: {description: transfer o --> k, default: false}
+  factions.money.withdraw: {description: klandan para çeker, default: false}
+  factions.motd: {description: klan motd, default: false}
+  factions.open: {description: klan davet gereksinimini düzenler, default: false}
+  factions.perm: {description: klan yetkilerini düzenler, default: false}
   factions.perm.list: {description: yetkileri listeler, default: false}
   factions.perm.set: {description: yetkileri ayarlar, default: false}
   factions.perm.show: {description: yetkileri görüntüler, default: false}
   factions.player: {description: oyuncu bilgilerini görüntüler}
-  factions.powerboost: {description: manage powerboost, default: false}
-  factions.powerboost.faction: {description: show faction powerboost, default: false}
-  factions.powerboost.player: {description: show player powerboost, default: false}
-  factions.powerboost.set: {description: set powerboost, default: false}
-  factions.rank: {description: manage/show ranks, default: false}
-  factions.rank.show: {description: show rank, default: false}
-  factions.rank.action: {description: change rank, default: false}
-  factions.relation: {description: manage faction relations, default: false}
-  factions.relation.list: {description: list all factions with certain relation, default: false}
-  factions.relation.set: {description: set relation wish to another faction, default: false}
-  factions.relation.wishes: {description: list the relation wishes, default: false}
+  factions.powerboost: {description: güç artırmasını düzenler, default: false}
+  factions.powerboost.faction: {description: klan güç artırmasını görüntüler, default: false}
+  factions.powerboost.player: {description: oyuncu güç artırmasını görüntüler, default: false}
+  factions.powerboost.set: {description: güç artırmasını ayarlar, default: false}
+  factions.rank: {description: yetkileri görüntüler/düzenler, default: false}
+  factions.rank.show: {description: yetkileri görüntüler, default: false}
+  factions.rank.action: {description: yetkileri düzenler, default: false}
+  factions.relation: {description: klan ilişkilerini düzenler, default: false}
+  factions.relation.list: {description: belirli bir ilişkiye sahip tüm klanları listeler, default: false}
+  factions.relation.set: {description: başka bir klanla ilişkileri ayarlar, default: false}
+  factions.relation.wishes: {description: ilişki listesini görüntüler, default: false}
   factions.seechunk: {description: üzerinde bulunduğun chunkı görüntüler, default: false}
   factions.seechunkold: {description: içerisinde bulunduğun chunkı görüntüler, default: false}
   factions.sethome: {description: klan evini ayarlar, default: false}
